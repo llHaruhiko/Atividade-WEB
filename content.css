@@ -1,0 +1,30 @@
+label{
+	float: top;
+}
+
+input{
+	border:none;
+	border-radius:8px;
+	text-align: center;
+	float: bottom;
+}
+label{
+	float: bottom;
+}
+
+p{
+	align:center;
+}
+
+.campos{
+	width:25%;
+	background-color: rgb(150,150,150,0.5);
+	float:left;
+	display: inline-block;
+}
+
+.campos p{
+	padding: 0px 0px 0px 0px;
+	margin: 0p 0px 0px 0px;
+	
+}
