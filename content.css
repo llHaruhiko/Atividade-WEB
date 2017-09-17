@@ -3,5 +3,13 @@
 .campos{
 	width:120px;
 	height:40px;
+	float:left;
+	display: inline-block;
+	padding-left: 10px;
 	background-color: rgba(150,150,150,0.8);
+}
+
+input{
+	width:100%;
+	border:none;
 }
