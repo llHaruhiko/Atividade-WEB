@@ -9,7 +9,7 @@
 	background-color: rgba(150,150,150,0.8);
 }
 
-input{
+.campos input{
 	width:100%;
 	border:none;
 }
