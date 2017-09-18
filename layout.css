@@ -153,11 +153,24 @@ body{
 	float: right;
 }
 
+#proficiencia{
+	width:97%;
+	height:120px;
+	margin-left:1.5%;
+	margin-right:1.5%;
+}
+
 
 @media screen and (max-width: 810px){
 	.display1{
 		width:48%;
 	}
+	
+	.margin3{
+	margin-right:1%;
+	margin-left:1%;
+	margin-top:20px;
+	max-width:98%;
 }
 
 @media screen and (max-width: 680px){
@@ -186,6 +199,12 @@ body{
 		margin-left: 1%;
 		margin-right:1%;
 		height:180px; /*temporario, paenas para visualização*/
+	}
+	.margin3{
+		margin-right:1%;
+		margin-left:1%;
+		margin-top:20px;
+		max-width:98%;
 	}
 }
 
@@ -226,5 +245,12 @@ body{
 		margin-left:2%;
 		margin-top:20px;
 		max-width:540px;
+	}
+	
+	.margin3{
+		margin-right:1%;
+		margin-left:1%;
+		margin-top:20px;
+		max-width:98%;
 	}
 }
