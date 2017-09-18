@@ -16,8 +16,13 @@
 }
 .habilidades input{
 	border-radius:10px;
+	width:20%;
 	/*background-color:transparent;*//*interessante, deixa realmetne transparente*/
 }
+.habilidades label{
+	font-size:13px;
+}
+
 .habilidades td{
 	vertical-align: top;
 }
@@ -48,12 +53,22 @@
 	width:30px;
 }
 
-.coluna1{
-	background-color: rgba(50,150,250,0.4);
-	width:30px;
+.coluna1 input{
+	width:60%;
+	height:60px;
+}
+.coluna1 label{
+	font-size:12px;
 }
 .coluna1{
+	background-color: rgba(50,150,250,0.4);
+	width:26%;
+	min-width:100px;
 	text-align:center;
+}
+
+.coluna2{
+	font-size:13px;
 }
 
 .coluna2{
