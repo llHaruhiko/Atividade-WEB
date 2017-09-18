@@ -24,9 +24,19 @@
 }
 
 .a{
+<<<<<<< HEAD
 	width:100px;
 }
 
 .teste{
 	width:100%;
+=======
+	width:50%;
+}
+.b{
+	width:35%;
+}
+.c{
+	width 30%;
+>>>>>>> 0bc2c0d671a0d47a161608c8023962c62f7594b8
 }
