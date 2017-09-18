@@ -16,6 +16,7 @@
 }
 .habilidades input{
 	border-radius:10px;
+	text-align:center;
 	width:20%;
 	/*background-color:transparent;*//*interessante, deixa realmetne transparente*/
 }
@@ -48,6 +49,7 @@
 .coluna1 input{
 	width:60%;
 	height:60px;
+	font-size:24px;
 }
 .coluna1 label{
 	font-size:12px;
@@ -66,4 +68,22 @@
 .coluna2{
 	background-color: rgba(200,150,50,0.4);
 	width:62%;
+}
+
+.table1{
+	width:100%;
+	text-align:center;
+}
+.table1 td{
+	width:30%;
+	background-color: rgba(100,200,100,0.3);
+}
+.table1 input{
+	width:40px;
+	height:40px;
+	border-radius:8px;
+	text-align:center;
+}
+.table1 label{
+	font-size:12px;
 }
