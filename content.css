@@ -27,12 +27,16 @@
 	width:100px;
 }
 
-.teste{
+.total{
 	width:100%;
 }
 .b{
-	width:35%;
+<<<<<<< HEAD
+	width:15%;
+=======
+	width:22%;
+>>>>>>> 6837104b2b0cf16644627d200de55c4c9c090442
 }
 .c{
-	width:30%;
+	width:38%;
 }
