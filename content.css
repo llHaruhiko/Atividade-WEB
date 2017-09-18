@@ -13,3 +13,12 @@
 	width:100%;
 	border:none;
 }
+
+.habilidades tr{
+	width:40%;
+	height:50px;
+}
+.habilidades td{
+	width:40%;
+	height:50px;
+}
