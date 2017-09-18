@@ -13,14 +13,9 @@
 	width:100%;
 	border:none;
 }
-
-.habilidades tr{
-	width:40%;
-	height:50px;
-}
-.habilidades td{
-	width:40%;
-	height:50px;
+.habilidades input{
+	float:top;
+	border-radius:10px;
 }
 
 .a{
@@ -43,4 +38,18 @@
 }
 .c{
 	width:38%;
+}
+
+.campoTest{
+	width:30px;
+}
+
+.coluna1{
+	background-color: rgba(50,150,250,0.4);
+	width:30px;
+}
+
+.coluna2{
+	background-color: rgba(200,150,50,0.4);
+	width:62%;
 }
