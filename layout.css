@@ -165,9 +165,14 @@ body{
 	height:350px;
 	margin-left:1.5%;
 	margin-right:1.5%;
-	
 }
 
+#ataques{
+	width:97%;
+	height:240px;
+	margin-left:1.5%;
+	margin-right:1.5%;
+}
 
 @media screen and (max-width: 810px){
 	.display1{
