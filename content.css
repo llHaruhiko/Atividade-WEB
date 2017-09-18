@@ -7,6 +7,7 @@
 	display: inline-block;
 	padding-left: 10px;
 	background-color: rgba(150,150,150,0.8);
+	text-align:center;
 }
 
 .campos input{
@@ -14,8 +15,11 @@
 	border:none;
 }
 .habilidades input{
-	float:top;
 	border-radius:10px;
+	/*background-color:transparent;*//*interessante, deixa realmetne transparente*/
+}
+.habilidades td{
+	vertical-align: top;
 }
 
 .a{
@@ -47,6 +51,9 @@
 .coluna1{
 	background-color: rgba(50,150,250,0.4);
 	width:30px;
+}
+.coluna1{
+	text-align:center;
 }
 
 .coluna2{
