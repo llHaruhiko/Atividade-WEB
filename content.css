@@ -3,6 +3,18 @@
 	border-radius: 10px;
 }
 
+.borda2{
+	border-style: double;
+	border-bottom-style: solid;
+	border-radius: 8px;
+}
+
+.borda3{
+	border-style: double;
+	border-bottom-style: solid;
+	border-radius: 8px;
+}
+
 .esp{
 	margin-left:10px;
 }
@@ -77,9 +89,6 @@
 }
 
 .coluna2{
-}
-
-.coluna2{
 	/*background-color: rgba(200,150,50,0.4);*/
 	width:62%;
 	font-size:13px;
@@ -91,7 +100,7 @@
 }
 .table1 td{
 	width:30%;
-	background-color: rgba(100,200,100,0.3);
+	/*background-color: rgba(100,200,100,0.3);*/
 }
 .table1 input{
 	width:40px;
@@ -104,14 +113,14 @@
 }
 
 .hp_m{
-	width:96%;
+	width:94%;
 	margin-left:2%;
 	margin-right:2%;
-	background-color: rgba(0,200,100,0.3);
+	/*background-color: rgba(0,200,100,0.3);*/
 }
 
 #h_point{
-	width: auto ;
+	width: 60px ;
 }
 
 #h_point_d{
@@ -121,23 +130,28 @@
 .texto_centro{
 	text-align:center;
 }
+.texto_topLeft{
+	text-align:top;
+	vertical-align: top;
+}
 .t_hp{
-	width:96%;
+	width:94%;
 	margin-left:2%;
 	margin-right:2%;
-	background-color: rgba(200,100,100,0.3);
+	/*background-color: rgba(200,100,100,0.3);*/
 	margin-top:4px;
 }
 #t_hp{
 	width:100%;
-	height:90px;
+	height:70px;
 }
 
 .h_dice{
-	width:47%;
+	width:44%;
 	margin-left:2%;
 	margin-right:0%;
-	background-color: rgba(200,0,100,0.3);
+	/*background-color: rgba(200,0,100,0.3);*/
+	margin-top:3px;
 }
 #t_hd{
 	width:100px;
@@ -147,10 +161,15 @@
 	height:59px;
 }
 .death{
-	width:45%;
+	width:44%;
 	margin-left:1%;
 	margin-right:2%;
-	background-color: rgba(200,100,0,0.3);
+	/*background-color: rgba(200,100,0,0.3);*/
+	margin-top:3px;
+}
+#death_saves{
+	width:100%;
+	height:82px;
 }
 
 .div1 input{
@@ -162,24 +181,54 @@
 	width:96%;
 	margin-left:2%;
 	margin-right:2%;
-	height:100px;
+	height:104px;
 }
 .ideals{
 	width:96%;
 	margin-left:2%;
 	margin-right:2%;
-	height:100px;
+	height:104px;
 }
 
 .bonds{
 	width:96%;
 	margin-left:2%;
 	margin-right:2%;
-	height:100px;
+	height:104px;
 }
 .flaws{
 	width:96%;
 	margin-left:2%;
 	margin-right:2%;
-	height:100px;
+	height:104px;
+}
+#feature{
+	width:97%;
+	height:350px;
+	margin-left:1.5%;
+	margin-right:1.5%;
+}
+
+@media screen and (max-width: 1100px){
+	#feature{
+	width:97%;
+	height:370px;
+	margin-left:1.5%;
+	margin-right:1.5%;
+}
+}
+
+@media screen and (max-width: 900px){
+	.hp_m label{
+		font-size:12px;
+	}
+	.t_hp{
+		font-size:12px;
+	}
+	.h_dice{
+		font-size:12px;
+	}
+	.death{
+		font-size:12px;
+	}
 }
