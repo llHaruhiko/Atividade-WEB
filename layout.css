@@ -70,7 +70,6 @@ body{
 	background-color: rgba(40,40,40, 0.5);
 	width: 31%;
 	float:left;
-	height:390px; /*temporario, paenas para visualização*/
 	min-width:250px;
 }
 
@@ -78,7 +77,6 @@ body{
 	background-color: rgba(200,200,200,0.5);
 	width: 31%;
 	float:left;
-	height:390px; /*temporario, paenas para visualização*/
 	min-width:250px;
 }
 
