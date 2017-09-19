@@ -58,10 +58,12 @@ body{
 }
 
 .habilidades{
-	background-color: rgba(20,20,20,0.5);
+	background-color: rgba(200,200,200,0.2);
 	width: 31%;
 	float:left;
 	min-width:250px;
+	padding-top:10px;
+	padding-bottom:10px;
 	
 	
 }

@@ -1,4 +1,11 @@
+.borda{
+	border-style: double;
+	border-radius: 10px;
+}
 
+.esp{
+	margin-left:10px;
+}
 
 .campos{
 	width:120px;
@@ -23,7 +30,15 @@
 .habilidades label{
 	font-size:13px;
 }
-
+.habilidades table{
+	margin-top:6px;
+	margin-left:4px;
+	margin-right:4px;
+	border-top-style: double;
+	border-left-style: double;
+	border-color: rgb(0,0,0);
+	border-radius:10px;	
+}
 .habilidades td{
 	vertical-align: top;
 }
@@ -55,19 +70,19 @@
 	font-size:12px;
 }
 .coluna1{
-	background-color: rgba(50,150,250,0.4);
+	/*background-color: rgba(50,150,250,0.4);*/
 	width:26%;
 	min-width:100px;
 	text-align:center;
 }
 
 .coluna2{
-	font-size:13px;
 }
 
 .coluna2{
-	background-color: rgba(200,150,50,0.4);
+	/*background-color: rgba(200,150,50,0.4);*/
 	width:62%;
+	font-size:13px;
 }
 
 .table1{
