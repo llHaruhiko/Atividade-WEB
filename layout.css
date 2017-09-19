@@ -227,6 +227,10 @@ body{
 }
 
 @media screen and (max-width: 540px){
+	
+}
+
+@media screen and (max-width: 540px){
 	.display1{
 		float: none;
 		margin: 0px auto;

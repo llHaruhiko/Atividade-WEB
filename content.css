@@ -51,6 +51,25 @@
 	border-color: rgb(0,0,0);
 	border-radius:10px;	
 }
+
+@media screen and (max-width: 859px){
+	.coluna2 label{
+		font-size:12px;
+	}
+}
+
+@media screen and (max-width: 590px){
+	.habilidades table{
+		margin-top:4px;
+		margin-left:4px;
+		margin-right:4px;
+		border-top-style: double;
+		border-left-style: double;
+		border-color: rgb(0,0,0);
+		border-radius:10px;	
+	}
+}
+
 .habilidades td{
 	vertical-align: top;
 }
